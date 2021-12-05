@@ -140,3 +140,15 @@ hr {
 
 
 /************  ID tags  *************/
+
+
+/* media queries */
+
+@media(max-width:800px) {
+    .skill-row {
+        width: 80%;
+    }
+    hr {
+        width: 25%;
+    }
+}
