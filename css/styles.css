@@ -140,3 +140,18 @@ hr {
 
 
 /************  ID tags  *************/
+
+
+/* media queries */
+
+@media(max-width:1090px) {
+    .skill-row {
+        width: 80%;
+    }
+    hr {
+        width: 25%;
+    }
+    .mountain {
+        width: 100%;
+    }
+}
