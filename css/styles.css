@@ -144,7 +144,7 @@ hr {
 
 /* media queries */
 
-@media(max-width:800px) {
+@media(max-width:1090px) {
     .skill-row {
         width: 80%;
     }
