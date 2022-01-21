@@ -1,5 +1,32 @@
-/************ HTML tags *************/
+  /************ HTML tags *************/
 
+#main {
+  height: 100vh;
+}
+
+h2 {
+  padding: 10px;
+  border-radius: 15px;
+  animation-name: h2Animation;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes h2Animation {
+  0% {
+    /* background-color: blue; */
+    -webkit-transform: scale(1.0);
+  }
+  50% {
+    /* background-color: red; */
+    /* -webkit-transform: scale(1.1); */
+    /* font-weight: bold; */
+  }
+  100% {
+    /* background-color: blue; */
+    -webkit-transform: scale(1.0);
+  }
+  /* 
 a {
     color: #11999E;
     text-decoration: none;
@@ -45,11 +72,9 @@ hr {
     width: 5%;
     border-top: 10px dotted #11999e44;
     margin: 100px auto;
-}
-
-
-/************  CLASSES  *************/
-
+} */
+  /************  CLASSES  *************/
+  /* 
 .bottomCloud {
     position: absolute;
     left: 500px;
@@ -81,9 +106,9 @@ hr {
 }
 
 .profile p:nth-of-type(1) {
-    text-transform: uppercase;
-    /* font-weight: 700; */
-}
+    text-transform: uppercase; */
+  /* font-weight: 700; */
+  /* }
 
 .topCloud {
     position: absolute;
@@ -137,13 +162,10 @@ hr {
 .contact-me {
     padding-bottom: 40px;
 }
-
-
-/************  ID tags  *************/
-
-
-/* media queries */
-
+ */
+  /************  ID tags  *************/
+  /* media queries */
+  /* 
 @media(max-width:1090px) {
     .skill-row {
         width: 80%;
@@ -154,4 +176,4 @@ hr {
     .mountain {
         width: 100%;
     }
-}
+} */
