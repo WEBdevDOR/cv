@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+
+/* TAGS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  background: linear-gradient(-90deg, lightpink, lightblue);
+  background-size: 300% 300%;
+  animation: change 20s ease-in-out infinite;
+  color: whitesmoke;
+  padding: 15px;
+  border-radius: 20px;
+  ;
+}
+
+p {
+  margin: 0;
+}
+
+
+/* CLASS */
+
+.fonts {
+  font-family: 'Just Another Hand', cursive;
+}
+
+
+/* ID */
+
+#footer {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  font-weight: bold;
+  background-color: lightpink;
+  display: flex;
+  align-items: center;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+/* ANIMATION */
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+    color: violet;
+  }
+  50% {
+    background-position: 100% 50%;
+    color: white;
+  }
+  100% {
+    background-position: 0 50%;
+    color: violet;
+  }
+}
+
+
+/* MEDIA */

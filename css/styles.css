@@ -9,13 +9,19 @@
 }
 
 h1 {
-  font-size: 4rem;
-  color: rgb(85, 51, 163);
+  background: linear-gradient(-45deg, pink, #E73C7E, #23a6d5);
+  background-size: 400% 400%;
+  color: #fff;
+  /* color: rgb(85, 51, 163); */
+  display: inline-block;
+  font-size: 3rem;
+  padding: 20px;
+  margin: 0 auto;
+  animation: change 10s ease-in-out infinite;
 }
 
 p {
   margin: 0;
-  ;
 }
 
 
@@ -33,43 +39,42 @@ p {
   font-family: 'Just Another Hand', cursive;
 }
 
-
-}
 .orState {
   color: #df6831
 }
+
 #footer {
   background-color: #fff;
   position: fixed;
   bottom: 0;
   height: 50px;
   font-weight: bold;
+  background-color: lightpink;
 }
 
+
 /************* ID ****************/
+
 #main {
   width: 100%;
   height: 100vh;
-  color: #fff;
-  background: linear-gradient(-45deg, pink, #E73C7E, #23a6d5);
-  background-size: 400% 400%;
-  position: relative;
-  animation: change 10s ease-in-out infinite;
+  background-color: pink;
 }
+
 #react {
   height: 100vh;
 }
 
+
 /* Animations */
+
 @keyframes change {
   0% {
     background-position: 0 50%;
   }
-  
   50% {
     background-position: 100% 50%;
   }
-  
   100% {
     background-position: 0 50%;
   }
